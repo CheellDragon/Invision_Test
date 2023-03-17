@@ -1,0 +1,77 @@
+.sums_background {
+    background-color: #F4A276;
+}
+
+.sums {
+    font-family: "Rist";
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 162px;
+}
+
+.sums-full p, img, h2 {
+    display: inline-block;
+    margin: 0;
+}
+
+.sums-full p {
+    position: relative;
+    font-size: 60px;
+    margin-right: 80px;
+}
+
+.sums-full p span {
+    position: absolute;
+    top: 0;
+    right: -40px;
+    font-weight: bold;
+    font-size: 35px;
+    color: #E84F35;
+}
+
+.sums_seed::before {
+    content: "";
+    display: inline-block;
+    background: url("../../assets/seed.png") no-repeat;
+    width: 35px;
+    height: 35px;
+    margin: 0 6px 0 0;
+}
+
+.sums_private::before {
+    content: "";
+    display: inline-block;
+    background: url("../../assets/private.png") no-repeat;
+    width: 30px;
+    height: 45px;
+    margin: 0 6px 0 0;
+}
+
+.sums-full .sums_private {
+    margin-right: 90px;
+}
+
+.sums-full .sums_private span {
+    right: -80px;
+}
+
+.sums-full .sums_public span {
+    color: #075066;
+    right: -70px;
+}
+
+.sums_text {
+    color: #075066;
+    font-weight: bold;
+}
+
+.sums-full .shows {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: #ffffff;
+    font-family: "Rist";
+}

@@ -1,0 +1,46 @@
+.header {
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_link {
+    font-family: "RistB", Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    margin-right: 25px;
+    text-align: left;
+    color: darkblue;
+    text-decoration: none;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials_link {
+    width: 30px;
+    height: 30px;
+    margin-right: 19px;
+}
+
+.socials_link:last-child {
+    margin-right: 0;
+}
+
+.lang {
+    color: darkblue;
+    font-family: "RistB", Times, serif;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0;
+}

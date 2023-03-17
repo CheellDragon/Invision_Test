@@ -1,0 +1,71 @@
+.promo_background {
+    background-color: #00B5A5;
+}
+
+.promo {
+    position: relative;
+    color: #ffffff;
+    font-family: 'TT';
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.promo_title {
+    font-family: "RistB";
+    font-size: large;
+    font-weight: bold;
+    font-size: 150px;
+    line-height: 174px;
+    margin: 120px 0 0;
+}
+
+.promo_under-title {
+    font-family: 'TTB';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.promo_text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+.promo_under-title span {
+    padding: 8px;
+    background-color: #E84F35;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.promo_btn {
+    border-radius: 20px;
+    background-color: #E84F35;
+    min-width: 350px;
+    padding: 20px;
+    font-size: 25px;
+    margin: 0 0 35px;
+    color: white;
+    text-align: left;
+    border: 0;
+}
+
+.promo_btn:hover {
+    opacity: 0.9;
+}
+
+.promo_coins-animation {
+    position: absolute;
+    right: 0;
+}
+
+.promo_coins-animation img {
+    height: 650px;
+}

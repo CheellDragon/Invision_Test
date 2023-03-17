@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'RistB';
+  src: local('RistrettoPro'),
+    url('./fonts/RistrettoPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Rist';
+  src: local('RistrettoPro'),
+    url('./fonts/RistrettoPro.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTBold';
+  src: local('TTNorms-Bold'),
+    url('./fonts/TTNorms-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+  font-family: 'TT';
+  src: local('TTNorms-Medium'),
+    url('./fonts/TTNorms-Medium.ttf') format('truetype');
+}

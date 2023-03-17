@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/RistrettoPro.ttf';
+import './fonts/RistrettoPro-Bold.ttf';
+import './fonts/TTNorms-Bold.ttf';
+import './fonts/TTNorms-Medium.ttf';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

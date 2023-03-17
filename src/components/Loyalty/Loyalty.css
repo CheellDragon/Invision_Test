@@ -1,0 +1,28 @@
+.loyalty {
+    background-color: #075066;
+    color: white;
+}
+
+.loyalty .container .loyalty_head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 162px;
+}
+
+.loyalty .container .loyalty_text {
+    margin-right: 180px;
+    font-family: "Rist";
+}
+
+h2, img, p {
+    margin: 0;
+}
+
+.opener_title {
+    font-family: "RistB";
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 116px;
+}
