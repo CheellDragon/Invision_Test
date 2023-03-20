@@ -29,6 +29,7 @@
 
 .opener_arrow {
     transition: transform 0.5s ease;
+    z-index: 5;
 }
 
 .onClick {
