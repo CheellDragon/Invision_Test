@@ -6,6 +6,8 @@
 
 .bw {
     background-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 .tradeGroup .tradeHead {
