@@ -4,6 +4,10 @@
     font-family: "Rist", Arial, Helvetica, sans-serif;
 }
 
+.bw {
+    background-color: white;
+}
+
 .tradeGroup .tradeHead {
     display: flex;
     align-items: center;
@@ -23,4 +27,165 @@
 
 .opener_arrow {
     transition: transform 0.5s ease;
+}
+
+.onClick {
+    background-color: #ffffff;
+    color: #E84F35;
+}
+
+.club_text {
+    position: absolute;
+    right: 10%;
+    top: -60px;
+    font-family: "RistB",Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #075066;
+}
+
+.tradeBody {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dolphin {
+    color: #00B5A5;
+    background-color: #00B5A5;
+}
+
+.dolphin .offer_header {
+    background-color: #B0E7E2;
+}
+
+.dolphin .pretext {
+    color: #00B5A5;
+}
+
+.shark {
+    color: #E84F35;
+    background-color: #E84F35;
+}
+
+.shark .offer_header {
+    background-color: #F5C0B7;
+}
+
+.whale {
+    color: #075066;
+    background-color: #075066;
+}
+
+.whale .offer_header {
+    background-color: #8EBBC9;
+}
+
+.offer_header {
+    padding: 40px 20px;
+    color: white;
+    border-radius: 50px;
+}
+
+.offer_header .title {
+    color: #075066;
+    font-size: 45px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.offer_header .price {
+    font-size: 20px;
+    font-family: "TT",Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: right;
+}
+
+.offer_header .subPrice {
+    font-size: 15px;
+    text-align: right;
+    font-family: "TT",Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.offer_header .pretext {
+    font-size: 16px;
+    font-family: "TT",Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.offer_header .text {
+    font-size: 20px;
+    font-family: "TT",Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #075066;
+}
+
+.badge {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+.offer {
+    position: relative;
+    border-radius: 50px;
+    border: 1px solid #075066;
+}
+
+.offer_body {
+    padding: 30px;
+    background-color: white;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.offer_body .state{
+    font-size: 20px;
+    font-family: "TT",Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.offer_body .undertext{
+    font-size: 10px;
+    font-family: "TT",Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.offer_body .text {
+    font-size: 16px;
+    font-family: "TT",Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.offer_body .text::before {
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color: #075066;
+}
+
+.offer_body .mb0 {
+    margin-bottom: 0;
+}
+
+.offer_footer {
+    text-align: center;
+    color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.offer_footer .pretitle {
+    font-size: 20px;
+    font-family: "TT",Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.offer_footer .title {
+    font-size: 50px;
+    font-weight: bold;
 }
