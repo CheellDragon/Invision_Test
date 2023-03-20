@@ -12,18 +12,19 @@
     min-height: 162px;
 }
 
-.sums-full p, img, h2 {
+.sums-full p,.sums-full img,.sums-full h2 {
     display: inline-block;
     margin: 0;
 }
 
-.sums-full p {
+.sums-full .head {
+    font-family: "Rist",Arial, Helvetica, sans-serif;
     position: relative;
     font-size: 60px;
     margin-right: 80px;
 }
 
-.sums-full p span {
+.sums-full p .top {
     position: absolute;
     top: 0;
     right: -40px;
@@ -66,6 +67,8 @@
 .sums_text {
     color: #075066;
     font-weight: bold;
+    font-size: 55px;
+    line-height: 64px;
 }
 
 .sums-full .shows {
@@ -74,4 +77,77 @@
     flex-direction: row;
     color: #ffffff;
     font-family: "Rist";
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #075066;
+    width: 28%;
+}
+
+.table .row {
+    border-bottom: 1px solid #075066;
+    color: #075066;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table .row .end {
+    text-align: right;
+}
+
+.table .row .start {
+    text-align: left;
+}
+
+.gridSums {
+    font-family: "TT",Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.sums_bottom {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info .information {
+    color:#075066;
+    font-size: 50px;
+    font-family: "Rist",Arial, Helvetica, sans-serif;
+}
+
+.info .colvo {
+    font-family: "Rist";
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 7px;
+    background-color: #E84F35;
+}
+
+.subcribe {
+    font-family: "TT",Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 7px;
+    border-radius: 7px;
+    border: 1px solid #075066;
+}
+
+.koteika {
+    max-height: 240px;
+    max-width: 240px;
 }

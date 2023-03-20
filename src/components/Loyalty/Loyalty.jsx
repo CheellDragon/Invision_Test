@@ -1,5 +1,7 @@
 import './Loyalty.css';
 import { useState } from 'react';
+import Lottie from "lottie-react";
+import Flower from "../../assets/Flower.json";
 
 const Loyalty = () => {
     const [opened,setOpened] = useState(false)
@@ -42,7 +44,7 @@ const Loyalty = () => {
                             <div className="programs">-20%</div>
                             <div className="programs">-50%</div>
                             <div className="programs cpec">-100%</div>
-                            <img className='animatedFlower' src="./img/Flower.png" alt="flower" />
+                            <div className="animatedFlower"><Lottie animationData={Flower} loop={true} /></div>
                             <div className="understand">Форум</div>
                             <div className="understand">без приоритета</div>
                             <div className="understand">низкий</div>
