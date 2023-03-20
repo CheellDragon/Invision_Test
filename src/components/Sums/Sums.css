@@ -22,6 +22,7 @@
     position: relative;
     font-size: 60px;
     margin-right: 80px;
+    height: fit-content;
 }
 
 .sums-full p .top {
@@ -31,6 +32,10 @@
     font-weight: bold;
     font-size: 35px;
     color: #E84F35;
+}
+
+.sums-full p .top20 {
+    top: -10px;
 }
 
 .sums_seed::before {
@@ -108,6 +113,7 @@
     justify-content: space-between;
     font-size: 30px;
     line-height: 35px;
+    align-items: flex-end;
 }
 
 .sums_bottom {

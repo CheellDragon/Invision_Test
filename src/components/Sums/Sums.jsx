@@ -64,9 +64,9 @@ const Sums = () => {
                         <h2 className='opener_title'>ИТОГИ РАУНДОВ</h2>
                         <img className='opener_arrow' id="sumsArrow" src="./img/Polygon.png" alt="arrow down"/>
                         <div className="gridSums">
-                            <p className="sums_seed head">SEED<span className='top'>end</span></p>
+                            <p className="sums_seed head">SEED<span className='top top20'>end</span></p>
                             <p className="sums_private head">PRIVATE<span className='top'>sold out</span></p>
-                            <p className="sums_public head">!PUBLIC<span className='top'>13.67%</span></p>
+                            <p className="sums_public head">!PUBLIC<span className='top top20'>13.67%</span></p>
                         </div>
                     </div>
                 </div>
