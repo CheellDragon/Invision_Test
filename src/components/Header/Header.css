@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-.nav {
+.header .nav {
     display: flex;
     justify-content: space-between;
 }
